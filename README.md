@@ -19,6 +19,8 @@ Knowledge_System/
 ├── 02_Learning/
 ├── 03_Library/
 ├── 04_Templates/
+├── AGENTS.md
+├── CLAUDE.md
 ├── DEPLOYMENT.md
 ├── README.md
 ├── system_manifest.yaml
@@ -32,6 +34,7 @@ Knowledge_System/
 | `02_Learning/` | Organize course projects for learning, teaching, or both. | Keeps course-specific work while transferring generalizable knowledge to `01_Knowledge/`. |
 | `03_Library/` | Preserve documentary sources and bibliographic traceability. | Does not replace synthesized knowledge. |
 | `04_Templates/` | Maintain canonical templates. | Does not contain actual knowledge notes. |
+| `AGENTS.md` and `CLAUDE.md` | Communicate repository constraints to compatible AI agents. | Do not replace the normative hierarchy or grant authority beyond the user's request. |
 | `DEPLOYMENT.md` | Define the boundary between the versioned template and private operational instances. | Does not govern knowledge content. |
 | `README.md` | Provide the global operating guide. | Does not duplicate subsystem instructions. |
 | `system_manifest.yaml` | Declare machine-readable system identity and schema compatibility. | Does not replace operating documentation. |

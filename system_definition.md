@@ -57,6 +57,7 @@ Feedback to people and system structure
 | YAML metadata | Support semantic classification, retrieval, and automation. |
 | Internal links | Express meaningful relationships between knowledge units. |
 | README files | Define the rules and operating logic of the system. |
+| Agent instruction files | Communicate repository boundaries and operational constraints to compatible artificial intelligence agents. |
 | People and agents | Interpret, transform, evaluate, use, and maintain knowledge. |
 
 ## System Boundary and Environment
