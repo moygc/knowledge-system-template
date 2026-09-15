@@ -36,6 +36,7 @@ Evaluate:
 16. whether the note can be understood and reused without knowing the project, client, organization, course, or personal situation that motivated it;
 17. whether unnecessary names, identifiers, deliverables, schedules, costs, decisions, operational details, or sensitive information remain;
 18. whether generalization removed conditions, assumptions, evidence, or limits and thereby overstated transferability.
+19. whether material convergences and divergences among sources were preserved and attributed where they affect meaning, scope, applicability, assumptions, or reuse; whether shared terminology or examples were incorrectly treated as agreement; and whether any unresolved disagreement was merged or adjudicated without supporting evidence.
 
 Return:
 
