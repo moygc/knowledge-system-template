@@ -20,7 +20,7 @@ Git versions the design of the system. It is not the storage, traceability, or b
 
 A distributable template contains only:
 
-- `README.md`, `system_definition.md`, `DEPLOYMENT.md`, and `system_manifest.yaml`;
+- `README.md`, `system_definition.md`, `DEPLOYMENT.md`, `system_manifest.yaml`, `AGENTS.md`, and `CLAUDE.md`;
 - repository configuration required for safe distribution;
 - subsystem README files;
 - canonical files under `04_Templates/`;
@@ -77,7 +77,7 @@ The distributable repository uses a closed allowlist. Everything is ignored by d
 The intended policy is:
 
 ```text
-Tracked:   system definition, manifest, operating documentation,
+Tracked:   system definition, manifest, operating and agent documentation,
            templates, prompts, distribution configuration, empty structure
 
 Ignored:   Inbox candidates, knowledge notes, course projects,
