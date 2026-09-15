@@ -1,0 +1,33 @@
+# Template-design policy: ignore everything unless its functional path is allowed.
+*
+
+# Keep directories traversable so specific functional paths can be admitted.
+!*/
+
+# Repository configuration.
+!/.gitignore
+!/.gitattributes
+!/.editorconfig
+!/LICENSE*
+
+# System identity, governance, and operating documentation.
+!/README.md
+!/system_definition.md
+!/system_manifest.yaml
+!/DEPLOYMENT.md
+!/00_Inbox/README.md
+!/01_Knowledge/README.md
+!/02_Learning/README.md
+!/02_Learning/Courses/README.md
+!/03_Library/README.md
+
+# Canonical templates and prompts.
+!/04_Templates/**
+
+# Empty functional structure used by clean distributions.
+!/01_Knowledge/Concepts/.gitkeep
+!/01_Knowledge/Models/.gitkeep
+!/01_Knowledge/Methods/.gitkeep
+!/01_Knowledge/Frameworks/.gitkeep
+!/03_Library/Sources/.gitkeep
+!/03_Library/Records/.gitkeep
