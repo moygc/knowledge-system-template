@@ -9,4 +9,4 @@ See `AGENTS.md` for full repository instructions. This file exists only because 
 - Before creating a knowledge note, check whether an equivalent note already exists in the target subfolder of `01_Knowledge/`. If it does, say so and ask whether this is an extension or a distinct topic instead of assuming.
 - In a distributable template repository, never add operational knowledge, Inbox items, course projects, bibliographic entries, sources, records, or personal configuration. Follow the boundary defined in `DEPLOYMENT.md`.
 
-Read `AGENTS.md`, then `system_definition.md` and `README.md`, before doing anything else in this repository.
+Read `AGENTS.md`, then follow its Task Router to decide what else to read, before doing anything else in this repository.
