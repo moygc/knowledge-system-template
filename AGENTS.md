@@ -9,6 +9,22 @@ This repository implements `Knowledge_System`. Before doing anything here, read 
 - Before creating a knowledge note, check whether an equivalent note already exists in the target subfolder of `01_Knowledge/`. If it does, say so and ask whether this is an extension or a distinct topic instead of assuming.
 - In a distributable template repository, never add operational knowledge, Inbox items, course projects, bibliographic entries, sources, records, or personal configuration. Follow the boundary defined in `DEPLOYMENT.md`.
 
+## Task Router (progressive disclosure)
+
+Before reading anything beyond this file, classify the user's request using the table below. Read only the files listed for the matching path, in the order given. Escalate to a wider path only when the chosen path's own instructions require it.
+
+| Path | Triggered by | Read, in order | Produces |
+|---|---|---|---|
+| A. Full systemic audit | A request to analyze or audit the whole repository | `system_definition.md`, `README.md`, every subsystem `README.md` | A global diagnosis of the system |
+| B. Placement triage | "Where should this information go", "I have this, where does it belong" | `README.md` section 4 (Where Information Belongs) and, if YAML is involved, section 6 | A proposed location with justification |
+| C. Knowledge note drafting | The destination is already known to be `01_Knowledge/` | `01_Knowledge/README.md` (type and YAML), the matching template in `04_Templates/`, and a duplicate check in the target subfolder | A drafted note, ready for confirmation |
+| D. Course design from existing knowledge | "Help me build a course from what I already have" | `02_Learning/README.md`, an index of titles and metadata from `01_Knowledge/` (not full note content), `04_Templates/course_template.md` | A course structure referencing existing notes |
+| E. External knowledge interface | Another project needs to know whether this system already covers something, without exposing its context | `04_Templates/knowledge_requirements_map_template.md`, `04_Templates/knowledge_request_sheet_template.md`, and the matching prompt in `04_Templates/Prompts/` | A coverage map or a generalized knowledge request |
+
+If the request does not clearly match one path, ask which path applies before reading anything else. Never default to reading the whole repository.
+
+Every non-negotiable rule above still applies inside every path: show full content before writing, confirm before creating or editing, and check for duplicates before adding a knowledge note.
+
 ## Where the rest of the rules live
 
 - Note format, YAML schema, and classification rules: `01_Knowledge/README.md`.
