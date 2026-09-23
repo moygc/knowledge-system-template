@@ -16,10 +16,12 @@ Before reading anything beyond this file, classify the user's request using the 
 | Path | Triggered by | Read, in order | Produces |
 |---|---|---|---|
 | A. Full systemic audit | A request to analyze or audit the whole repository | `system_definition.md`, `README.md`, every subsystem `README.md` | A global diagnosis of the system |
-| B. Placement triage | "Where should this information go", "I have this, where does it belong" | `README.md` section 4 (Where Information Belongs) and, if YAML is involved, section 6 | A proposed location with justification |
+| B. Placement triage | "Where should this information go", "I have this, where does it belong" | `README.md` section 4 (Where Information Belongs); `00_Inbox/README.md` section 3 if the result is Inbox; `README.md` section 6 if the result is `01_Knowledge/` | A proposed location with justification |
 | C. Knowledge note drafting | The destination is already known to be `01_Knowledge/` | `01_Knowledge/README.md` (type and YAML), the matching template in `04_Templates/`, and a duplicate check in the target subfolder | A drafted note, ready for confirmation |
-| D. Course design from existing knowledge | "Help me build a course from what I already have" | `02_Learning/README.md`, an index of titles and metadata from `01_Knowledge/` (not full note content), `04_Templates/course_template.md` | A course structure referencing existing notes |
+| D. Course design from existing knowledge | "Help me build a course from what I already have" | `02_Learning/README.md`, `04_Templates/course_template.md` (to define purpose, learners, and learning outcomes first), then an index of titles and metadata from `01_Knowledge/` (not full note content) | A course structure referencing existing notes, plus a list of missing knowledge (each one handed to path C's research-request step) |
 | E. External knowledge interface | Another project needs to know whether this system already covers something, without exposing its context | `04_Templates/knowledge_requirements_map_template.md`, `04_Templates/knowledge_request_sheet_template.md`, and the matching prompt in `04_Templates/Prompts/` | A coverage map or a generalized knowledge request |
+
+Path C assumes usable material already exists. When it does not, first draft a request for external literature research: state the topic, the target note type (with its primary question from `01_Knowledge/README.md` section 4), and require the external tool to return citable references for `03_Library/references.bib`. A dedicated prompt for this step is planned for `04_Templates/Prompts/` as part of the router's construction roadmap; until it exists, build the request directly from this description.
 
 If the request does not clearly match one path, ask which path applies before reading anything else. Never default to reading the whole repository.
 
