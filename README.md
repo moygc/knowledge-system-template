@@ -273,6 +273,7 @@ Global rules belong in this README. Each subsystem documents only its internal r
 | [`02_Learning/README.md`](02_Learning/README.md) | Teaching-learning systems and course architecture. |
 | `04_Templates/README.md` | Template selection and maintenance. |
 | [`DEPLOYMENT.md`](DEPLOYMENT.md) | Template distribution, private-content boundary, compatibility, and updates. |
+| [`AGENTS.md`](AGENTS.md) and [`CLAUDE.md`](CLAUDE.md) | Agent instructions and task router; see section 2 (Architecture) for their responsibility and boundary. |
 
 The normative hierarchy is:
 
