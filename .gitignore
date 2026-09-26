@@ -7,7 +7,6 @@
 # Repository configuration.
 !/.gitignore
 !/.gitattributes
-!/.editorconfig
 !/LICENSE*
 
 # System identity, governance, and operating documentation.
