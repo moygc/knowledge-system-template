@@ -21,9 +21,9 @@ Do not create, edit, move, rename, stage, commit, or delete files. Return only t
 Objective: determine whether the template's purpose, functional architecture, rules, metadata schema, templates, prompts, and distribution boundary form a coherent and safely reusable system.
 
 Procedure:
-1. Read `system_definition.md`, `system_manifest.yaml`, `README.md`, `DEPLOYMENT.md`, subsystem README files, and `04_Templates/README.md`.
+1. Read `system_definition.md`, `system_manifest.yaml`, `README.md`, `DEPLOYMENT.md`, `AGENTS.md`, `CLAUDE.md`, subsystem README files, and `04_Templates/README.md`.
 2. Distinguish the design repository from an operational instance. Do not rate the template by the amount, topical coverage, or maturity of example or private knowledge content.
-3. Compare normative statements across documents and templates. Identify contradictions, missing implementation support, duplicated authority, and ambiguous ownership of rules.
+3. Compare normative statements across documents and templates. Identify contradictions, missing implementation support, duplicated authority, and ambiguous ownership of rules. Specifically, compare the "Non-negotiable rules" section of `AGENTS.md` against the corresponding section of `CLAUDE.md` line by line and report any wording difference as a finding, since both files declare that they must remain an exact mirror.
 4. Verify that the schema version is explicit and that incompatible changes would require migration instructions.
 5. Inspect the set of files intended for distribution. Confirm that it contains only functional documentation, templates, prompts, configuration, and required empty structure; flag operational knowledge, courses, references, sources, records, credentials, and personal data.
 6. Verify that the version-control policy is path-based and closed by default. Do not treat a file as safe merely because it is Markdown, YAML, BibTeX, or plain text.
