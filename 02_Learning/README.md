@@ -201,6 +201,8 @@ updated: YYYY-MM-DD
 ## Sources
 
 ## Generalizable Knowledge Candidates
+
+## Course Evaluation and Improvement
 ```
 
 Create additional files only when the course can no longer remain clear and usable as one document.
