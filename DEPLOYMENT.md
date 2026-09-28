@@ -100,6 +100,10 @@ Before publishing a template release:
 
 Changing `.gitignore` does not remove information from previous commits. A public template must begin from a clean exported directory or from a history that has been deliberately sanitized.
 
+Steps 1 through 4 are automated by `04_Templates/Scripts/export_public_release.py`. It derives the file set from `git ls-files` rather than trusting `.gitignore` text alone, cross-checks that set against the distribution contract in section 2, and scans tracked content for common leak patterns before writing anything. It refuses to write a clean export until those checks pass or are explicitly overridden after human review, and it never commits or pushes. Steps 5 through 7 remain manual.
+
+A private working instance may keep its own `RELEASE_WORKFLOW.md` at its root, recording the exact local paths and commands an operator or AI agent should use for this procedure. That file is intentionally outside the distribution contract in section 2 and must never appear in a template release.
+
 ## 7. Update Principle
 
 Template updates flow from design to operation. Operational content never flows back into a public release automatically.

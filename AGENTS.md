@@ -35,5 +35,6 @@ Every non-negotiable rule above still applies inside every path: show full conte
 - Course project rules: `02_Learning/README.md`.
 - Template selection and the extraction/audit prompt family: `04_Templates/README.md` and `04_Templates/Prompts/`.
 - Template distribution, compatibility, and release safety: `DEPLOYMENT.md`.
+- Publishing a private instance's improvements back to the public template: `DEPLOYMENT.md` section 6, plus this instance's own `RELEASE_WORKFLOW.md` at its root when one exists. That file is private, not part of the template, and may not be present in every instance.
 
 Follow the normative hierarchy already defined in `README.md`: `system_definition.md → README.md → subsystem README → template`. A lower level can specialize a higher one but never contradict it.
