@@ -24,7 +24,10 @@ Knowledge_System/
 ├── DEPLOYMENT.md
 ├── README.md
 ├── system_manifest.yaml
-└── system_definition.md
+├── system_definition.md
+├── .gitattributes
+├── .gitignore
+└── LICENSE
 ```
 
 | Component | Function | Boundary |
@@ -39,6 +42,8 @@ Knowledge_System/
 | `README.md` | Provide the global operating guide. | Does not duplicate subsystem instructions. |
 | `system_manifest.yaml` | Declare machine-readable system identity and schema compatibility. | Does not replace operating documentation. |
 | `system_definition.md` | Define the system's purpose and governing principles. | Does not contain operational procedures. |
+| `.gitignore` and `.gitattributes` | Define the repository's version-control distribution allowlist and text-formatting rules. | Do not define system behavior or content rules; governed by `DEPLOYMENT.md`. |
+| `LICENSE` | State the legal terms under which the template may be reused. | Does not define system behavior or content rules. |
 
 Root folders represent stable **functions**, not subjects, disciplines, or projects.
 
