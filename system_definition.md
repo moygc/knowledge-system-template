@@ -146,7 +146,7 @@ Health cycle:
 Measure relevant condition → interpret evidence → decide → review effect
 ```
 
-The architecture must be stable enough to produce consistency and adaptable enough to respond to evidence from inquiry, learning, research, and actual use. External experience returns as generalized questions, evidence, or learning—not as operational documentation of its original context. Structural changes should solve observed needs rather than hypothetical future needs.
+The architecture must be stable enough to produce consistency and adaptable enough to respond to evidence from inquiry, learning, research, and actual use. External experience returns as generalized questions, evidence, or learning, not as operational documentation of its original context. Structural changes should solve observed needs rather than hypothetical future needs.
 
 ## Decision Criterion
 

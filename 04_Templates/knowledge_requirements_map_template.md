@@ -53,7 +53,7 @@ Interpret gap classes as follows:
 
 Complete this section only for `update_candidate`, `new_candidate`, or `research_needed`. It is the only part intended to cross into a knowledge-curation workflow.
 
-### [KR-XX — Proposed Knowledge Unit]
+### [KR-XX: Proposed Knowledge Unit]
 
 - **General question:** [context-independent question]
 - **Proposed type:** [concept/framework/method/model]

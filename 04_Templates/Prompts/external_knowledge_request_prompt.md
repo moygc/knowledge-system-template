@@ -61,4 +61,4 @@ A `knowledge_request_sheet.md` file in the originating external system, or equiv
 
 ## Usage Notes
 
-Provide the resulting sheet—not the original project documents—to the human or AI responsible for knowledge coverage analysis.
+Provide the resulting sheet, not the original project documents, to the human or AI responsible for knowledge coverage analysis.
