@@ -167,6 +167,10 @@ Recommended minimal structure:
 ## Key Ideas
 
 ## Notes
+
+## Access and Location
+
+## Relevance
 ```
 
 Do not copy author, year, publisher, DOI, or other bibliographic fields into the record. Those fields belong only in `references.bib`.
