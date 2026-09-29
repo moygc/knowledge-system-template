@@ -100,6 +100,25 @@ Particular context → extract learning → remove contextual dependency
 
 External project-specific needs can trigger inquiry, but their operational projects are neither the system's primary purpose nor internal components. Course projects are the explicit exception because `02_Learning/` exists to operate teaching-learning activity. The same boundary filter applies to needs arising from curiosity, study, teaching, research, reflection, or daily life.
 
+### General Process Map (SIPOC)
+
+| Suppliers | Inputs | Process | Outputs | Customers |
+|---|---|---|---|---|
+| The user (source of ideas and knowledge) | Unstructured proposal or idea | 1. Receive and route | Grounded, specific knowledge | The user (future reference) |
+| External sources (papers, articles) | Already-structured concept | 2. Validate specifications | Complete course | Students or audience of the courses |
+| An AI agent (researches, drafts proposals) | Course idea | 3. Design course (curator, pedagogical designer, writer) | Published update to the template | Users of the public template |
+| The system's own operational use | Improvement detected through real use | 4. Approve (human) | | The user's other work (teaching, consulting, content) |
+| | | 5. Publish or promote | | |
+
+Step 1 does not apply to every input. An already-structured concept that meets the system's specifications skips routing and enters validation directly. A course idea never enters validation, it follows its own path through step 3.
+
+| Input | Route |
+|---|---|
+| Unstructured proposal or idea | 1 → 2 → 4 → 5 |
+| Already-structured, spec-compliant concept | 2 → 4 → 5 (skips step 1) |
+| Course idea | 1 → 3 → 4 → 5 (never enters step 2) |
+| Improvement detected through real use | 2 → 4 → 5, same route as a direct concept, but its output is a template update, not new knowledge |
+
 ## Structure and Behavior Principle
 
 The behavior of the repository depends deeply on its structure. Folders, templates, metadata, links, and rules influence how knowledge is captured, processed, found, related, reused, and maintained.
